@@ -1,0 +1,25 @@
+{
+    "name": "gutenberg-test-app",
+    "version": "0.0.1",
+    "private": true,
+    "description": "",
+    "author": "Jared Luxenberg",
+    "license": "UNLICENSED",
+    "keywords": [],
+    "homepage": "https://github.com/WordPress/gutenberg-examples/",
+    "repository": "git+https://github.com/WordPress/gutenberg-examples.git",
+    "bugs": {
+        "url": "https://github.com/WordPress/gutenberg-examples/issues"
+    },
+    "main": "build/index.js",
+    "devDependencies": {
+        "@wordpress/scripts": "^18.0.1"
+    },
+    "scripts": {
+        "build": "wp-scripts build",
+        "format": "wp-scripts format",
+        "lint:js": "wp-scripts lint-js",
+        "packages-update": "wp-scripts packages-update",
+        "start": "wp-scripts start"
+    }
+}

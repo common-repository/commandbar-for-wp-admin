@@ -1,0 +1,62 @@
+.commandbar-user-launcher {
+    font-family: "Avenir Next", sans-serif;
+    min-width: 200px;
+    width: 250px;
+    padding: 0 4px;
+    position: relative;
+    color: rgba(0, 0, 0, 0.65);
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 4px;
+    font-size: 13px;
+    transition: all 0.3s ease-in-out;
+    cursor: text;
+
+    /* https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+  }
+  
+  .commandbar-user-launcher:hover {
+    border: 1px solid rgb(160, 160, 160);
+    color: rgba(0, 0, 0, 0.75);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .commandbar-user-launcher__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .commandbar-user-launcher__prefix {
+    display: flex;
+    align-items: center;
+  }
+  
+  .commandbar-user-launcher__suffix {
+    font-size: 12px;
+    line-height: 2;
+    margin: 2px;
+  }
+  
+  .commandbar-user-launcher__tag {
+    font-size: 11px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0.2em 0.5em 0;
+    margin: 0 0 -10px;
+    min-width: 2em;
+    height: 2em;
+    background-color: rgba(170, 170, 180);
+    color: white;
+    border-radius: 5px;
+  }
+  
